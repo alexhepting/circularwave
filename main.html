@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circular Waveform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">
+        <h1>Circular Waveform</h1>
+        <div id="fileInfo"></div>
+    </div>
+    <div class="waveform-container">
+        <canvas id="waveformCanvas"></canvas>
+    </div>
+    <div class="controls">
+        <button id="play">Play</button>
+        <button id="pause">Pause</button>
+        <button id="rewind">Rewind</button>
+        <label for="fileInput" class="load-btn">Load Audio</label>
+        <input type="file" id="fileInput" accept=".mp3, .wav">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
